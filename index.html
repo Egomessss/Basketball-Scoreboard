@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="scoreboard">
+
+        <div class="score">
+            <h2>HOME</h2>
+            <p id="home-el">0</p>
+            <span id="btn">
+                <button onclick="addhOne()">+1</button>
+                <button onclick="addhTwo()">+2</button>
+                <button onclick="addhThree()">+3</button>
+            </span>
+        </div>
+
+        <div>
+            <span id="reset-btn">
+                <button id="newgame-el" onclick="newGame()">New game</button>
+            </span>
+        </div>
+        
+        <div id="score">
+            <h2>GUEST</h2>
+            <p id="guest-el">0</p>
+            <span id="btn">
+                <button onclick="addgOne()">+1</button>
+                <button onclick="addgTwo()">+2</button>
+                <button onclick="addgThree()">+3</button>
+            </span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
