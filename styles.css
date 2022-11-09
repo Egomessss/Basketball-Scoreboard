@@ -1,6 +1,5 @@
 body {
   background-color: rgb(121, 152, 152);
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -10,14 +9,13 @@ body {
   justify-content: space-around;
   margin: auto;
   margin-top: 5rem;
-  width: 40%;
-  height: 20%;
+  width: 50%;
+  height: 30%;
   background-color: rgb(31, 62, 88);
   border: 3px solid white;
   border-radius: 5px;
-  font-weight: bold;
   color: white;
-  padding: 5rem;
+  padding: 2rem;
 }
 
 h2 {
@@ -27,7 +25,7 @@ h2 {
   font-size: 2.5rem;
 }
 
-div p {
+p {
   margin: 1rem;
   height: 6rem;
   width: 10rem;
@@ -39,11 +37,45 @@ div p {
   justify-content: center;
   align-items: center;
 }
+#winner{color: rgb(27, 253, 7);
 
-div span {
+}
+
+span {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+span,
+#btn {
+  margin: auto;
+}
+
+#reset-el,
+#newgame {
+  width: 5rem;
+  height: 2.5rem;
+}
+
+#reset-el {
+  background-color: rgb(95, 122, 54);
+}
+
+#newgame {
+  background-color: brown;
+}
+
+#specialinputs {
+  justify-content: center;
+  align-items: center;
+}
+
+div,
+#winner {
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
 }
 
 button {
@@ -54,12 +86,4 @@ button {
   border-radius: 3px;
   width: 2rem;
   height: 1.5rem;
-}
-
-#newgame-el {
-  background-color: rgb(204, 71, 71);
-  margin-top: 16rem;
-  margin-right: 5rem;
-  width: 5rem;
-  height: 2rem;
 }

@@ -2,7 +2,7 @@ let homeEl = document.getElementById("home-el");
 let guestEl = document.getElementById("guest-el");
 let resetEl = document.getElementById("reset-el");
 let winnerEl = document.getElementById("winner");
-let newGame = document.getElementById("newgame")
+let newGame = document.getElementById("newgame");
 let homeScore = 0;
 let guestScore = 0;
 let count = 0;
@@ -36,19 +36,18 @@ function addgThree() {
   guestScore += 3;
   guestEl.textContent = guestScore;
 }
-function endGame(){
-if (homeScore > guestScore) {
+function endGame() {
+  if (homeScore > guestScore) {
     winner.textContent = "Home Wins!!";
-  }else{
-    winner.textContent = "Guest Wins!!"
+  } else {
+    winner.textContent = "Guest Wins!!";
   }
 }
-
 
 function reset() {
   homeScore = 0;
   guestScore = 0;
   homeEl.textContent = homeScore;
   guestEl.textContent = guestScore;
-  winner.textContent = " "
+  winner.textContent = " ";
 }

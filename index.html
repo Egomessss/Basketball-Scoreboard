@@ -9,7 +9,7 @@
 
     <div class="scoreboard">
 
-        <div class="score">
+        <div class="homescore">
             <h2>HOME</h2>
             <p id="home-el">0</p>
             <span id="btn">
@@ -18,7 +18,16 @@
                 <button onclick="addhThree()">+3</button>
             </span>
         </div>
-        <div id="score">
+
+        <div id="specialinputs">
+            <span id="specialbtns">
+                <button id="reset-el" onclick="reset()">NEW GAME</button>
+                <button id="newgame" onclick="endGame()">END GAME</button>
+            </span>
+            <p id="winner"></p>
+        </div>
+
+        <div id="guestscore">
             <h2>GUEST</h2>
             <p id="guest-el">0</p>
             <span id="btn">
@@ -27,17 +36,7 @@
                 <button onclick="addgThree()">+3</button>
             </span>
         </div>
-        <div>
-            <span id="reset-btn">
-                <button id="reset-el" onclick="reset()">NEW GAME</button>
-            </span>
-            <span>
-                <button id="newgame" onclick="endGame()">END GAME</button>
-            </span>
-        </div>
-        <div>
-            <p id="winner"></p>
-        </div>
+
     </div>
 
     <script src="script.js"></script>
