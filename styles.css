@@ -59,6 +59,7 @@ button {
 #newgame-el {
   background-color: rgb(204, 71, 71);
   margin-top: 16rem;
+  margin-right: 5rem;
   width: 5rem;
   height: 2rem;
 }

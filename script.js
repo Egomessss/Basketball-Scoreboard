@@ -1,6 +1,7 @@
 let homeEl = document.getElementById("home-el");
 let guestEl = document.getElementById("guest-el");
 let newGameEl = document.getElementById("newgame-el");
+let winnerEl = document.getElementById("winner");
 let homeScore = 0;
 let guestScore = 0;
 let count = 0;
@@ -35,11 +36,12 @@ function addgThree() {
   guestEl.textContent = guestScore;
 }
 
-function winner(){
-  if(homeScore < guestScore){
-    
+function winner() {
+  if (homeScore < guestScore) {
+    winner.textContent = "winner";
   }
 }
+
 
 function newGame() {
   homeScore = 0;
