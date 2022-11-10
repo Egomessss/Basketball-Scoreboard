@@ -24,3 +24,5 @@ What started as a simple scoreboard with just the functionality to display 1's, 
 - A button to end the game;
 - A button to start a new game, which reset the values to 0.
 
+<h2>My biggests difficulties</h2>
+-The hardest part of this project was the reset button, which at first was not doing what i wanted it to do, to not only display the score "0" but reset the score of everything, when I first added this button it didnt work as intended as it only display the "0" but once I started to score again it would not restart the score but add to the previous one, after a good amount of time and attemps what worked for me was to add two new variables for each side that had just the functionaly to reset the scores, instead of just getting the score from one variable "count" that would just keep adding onto the pre-reset score.
