@@ -1,33 +1,34 @@
 body {
   background-color: rgb(121, 152, 152);
-  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .scoreboard {
   display: flex;
   justify-content: space-around;
   margin: auto;
-  margin-top: 50px;
-  width: 40%;
+  margin-top: 5rem;
+  width: 50%;
   height: 40%;
   background-color: rgb(31, 62, 88);
   border: 3px solid white;
   border-radius: 5px;
-  font-weight: bold;
   color: white;
-  padding: 10px;
+  padding: 2rem;
 }
 
 h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 2.5rem;
 }
 
-div p {
+p {
   margin: 1rem;
-  height: 5.5rem;
-  width: 8rem;
+  height: 6rem;
+  width: 10rem;
   font-size: 5rem;
   background-color: black;
   color: rgb(198, 66, 66);
@@ -36,11 +37,45 @@ div p {
   justify-content: center;
   align-items: center;
 }
+#winner{color: rgb(27, 253, 7);
 
-div span {
+}
+
+span {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+span,
+#btn {
+  margin: auto;
+}
+
+#reset-el,
+#newgame {
+  width: 5rem;
+  height: 2.5rem;
+}
+
+#reset-el {
+  background-color: rgb(95, 122, 54);
+}
+
+#newgame {
+  background-color: brown;
+}
+
+#specialinputs {
+  justify-content: center;
+  align-items: center;
+}
+
+div,
+#winner {
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
 }
 
 button {
@@ -51,10 +86,4 @@ button {
   border-radius: 3px;
   width: 2rem;
   height: 1.5rem;
-}
-
-#newgame-el {
-  background-color: rgb(204, 71, 71);
-  width: 5rem;
-  height: 2rem;
 }

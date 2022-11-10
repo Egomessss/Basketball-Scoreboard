@@ -9,7 +9,7 @@
 
     <div class="scoreboard">
 
-        <div class="score">
+        <div class="homescore">
             <h2>HOME</h2>
             <p id="home-el">0</p>
             <span id="btn">
@@ -19,13 +19,15 @@
             </span>
         </div>
 
-        <div>
-            <span id="reset-btn">
-                <button id="newgame-el" onclick="newGame()">New game</button>
+        <div id="specialinputs">
+            <span id="specialbtns">
+                <button id="reset-el" onclick="reset()">NEW GAME</button>
+                <button id="newgame" onclick="endGame()">END GAME</button>
             </span>
+            <p id="winner"></p>
         </div>
-        
-        <div id="score">
+
+        <div id="guestscore">
             <h2>GUEST</h2>
             <p id="guest-el">0</p>
             <span id="btn">
