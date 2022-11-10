@@ -1,24 +1,20 @@
 # Basketball-Scoreboard
-[Link](https://egomessss.github.io/Basketball-Scoreboard/)
 
-<h2>Languages and Toolsh</h2>
+<h2>Languages and Tools</h2>
 
-HTML5
-CSS3
-JavaScript
-Virtual Studio Code
-Git
-
-<h2>What I Learnt</h2>
-
-Design to code conversion
-Understood CSS Flexbox better
-Used the Number() method to convert the variables to numbers
+-HTML5
+-CSS3
+-JavaScript
+-Virtual Studio Code
+-Git
 
 <h2>It started as :</h2>
 
+![](images/start.png)
 
 <h2>Ended as:</h2>
+
+[Scoreboard link](https://egomessss.github.io/Basketball-Scoreboard/)
 
 <h2>What I added to improve functionality:</h2>
 
