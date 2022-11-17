@@ -3,6 +3,8 @@ let guestEl = document.getElementById("guest-el");
 let resetEl = document.getElementById("reset-el");
 let winnerEl = document.getElementById("winner");
 let newGame = document.getElementById("newgame");
+let pauseGame = document.getElementById("pausegame")
+
 let homeScore = 0;
 let guestScore = 0;
 let count = 0;
@@ -53,3 +55,18 @@ function reset() {
   guestEl.textContent = guestScore;
   winner.textContent = " ";
 }
+
+
+
+
+
+
+// Add countdown
+// add countdown pause button
+// add periods
+// add player
+// Add fouls
+// add bonus for fauls
+// add button that lets you choose nba team for home and guest
+// add timeouts in current period
+
