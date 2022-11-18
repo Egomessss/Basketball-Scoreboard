@@ -6,40 +6,104 @@
 </head>
 
 <body>
+    <main>
+        <!-- !HOMESTATS -->
+        <section id="homestats">
 
-    <div class="scoreboard">
+            <div id="homeinputs">
+                <input type="number">
+                <input type="text">
+            </div>
 
-        <div class="homescore">
-            <h2>HOME</h2>
-            <p id="home-el">0</p>
-            <span id="btn">
-                <button onclick="addhOne()">+1</button>
-                <button onclick="addhTwo()">+2</button>
-                <button onclick="addhThree()">+3</button>
-            </span>
-        </div>
+            <div id="hplayer1">
+                <p class="number"></p>
+                <p class="surname"></p>
 
-        <div id="specialinputs">
-            <span id="specialbtns">
-                <button id="reset-el" onclick="reset()">NEW GAME</button>
-                <button id="newgame" onclick="endGame()">END GAME</button>
-                <button id="pausegame">PAUSE</button>
-            </span>
-            <p id="winner"></p>
-        </div>
+                <div class="fouls">
+                    <!-- cada botao ou é verde ou vermelho -->
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                </div>
 
-        <div id="guestscore">
-            <h2>GUEST</h2>
-            <p id="guest-el">0</p>
-            <span id="btn">
-                <button onclick="addgOne()">+1</button>
-                <button onclick="addgTwo()">+2</button>
-                <button onclick="addgThree()">+3</button>
-            </span>
-        </div>
+                <div class="playerpoints">
+                    <button class="p1addthree"></button>
+                    <button class="p1addtwo"></button>
+                    <button class="p1removethree"></button>
+                    <button class="p1removetwo"></button>
+                </div>
+        </section>
 
-    </div>
+        <!-- !MAIN DISPLAY -->
+        <section id="maindisplay">
+            <div id="homescore">
+                <h2>HOME</h2>
+                <p id="home-el">0</p>
+                <span id="btn">
+                    <button onclick="addhOne()">+1</button>
+                    <button onclick="addhTwo()">+2</button>
+                    <button onclick="addhThree()">+3</button>
+                </span>
+            </div>
 
+            <div id="middlesection">
+                <p id="countdowntimer">00:00</p>
+                <p id="periodcounter">PERIOD</p>
+                <span id="specialbtns">
+                    <button id="reset-el" onclick="reset()">NEW GAME</button>
+                    <button id="newgame" onclick="endGame()">END GAME</button>
+                    <button id="startgame" onclick="startTimer()">START GAME</button>
+                    <button id="pausegame" >PAUSE</button>
+                    <button id="resumegame" >RESUME</button>
+                </span>
+            </div>
+
+            <div id="guestscore">
+                <h2>GUEST</h2>
+                <p id="guest-el">0</p>
+                <span id="btn">
+                    <button onclick="addgOne()">+1</button>
+                    <button onclick="addgTwo()">+2</button>
+                    <button onclick="addgThree()">+3</button>
+                </span>
+            </div>
+
+        </section>
+
+
+        <!-- !GUESTSTATS -->
+        <section id="gueststats">
+
+            <div id="homeinputs">
+                <input type="number">
+                <input type="text">
+            </div>
+
+            <div id="hplayer1">
+                <p class="number"></p>
+                <p class="surname"></p>
+
+                <div class="fouls">
+                    <!-- cada botao ou é verde ou vermelho -->
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                </div>
+
+                <div class="playerpoints">
+                    <button class="p1addthree"></button>
+                    <button class="p1addtwo"></button>
+                    <button class="p1removethree"></button>
+                    <button class="p1removetwo"></button>
+                </div>
+
+
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 
