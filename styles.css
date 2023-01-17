@@ -41,6 +41,17 @@ body {
   align-items: center;
 }
 
+#winner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 3rem;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
 .score {
   border: 2px solid white;
   border-radius: 5px;
