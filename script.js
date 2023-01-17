@@ -42,13 +42,14 @@ function addgThree() {
   guestScore += 3
   guestEl.textContent = guestScore
 }
+
 function endGame() {
   if (homeScore > guestScore) {
     winnerEl.textContent = "Home Wins!!"
-  } else if ((homeScore = guestScore)) {
-    winner.textContent = "Draw!!"
-  } else {
+  } else if (homeScore < guestScore) {
     winnerEl.textContent = "Guest Wins!!"
+  } else {
+    winner.textContent = "Draw!!"
   }
 }
 
